@@ -1,0 +1,35 @@
+Track averaging
+https://github.com/lordsutch/osm-makeroads
+https://wiki.openstreetmap.org/wiki/R_(programming_language)/Average_tracks
+https://github.com/dittaeva/Average-tracks/
+https://gis.stackexchange.com/questions/42224/creating-polyline-based-heatmap-from-gps-tracks?rq=1
+https://gis.stackexchange.com/questions/1808/managing-error-with-gps-routes-theoretical-framework
+https://stats.stackexchange.com/questions/2493/managing-error-with-gps-routes-theoretical-framework
+https://github.com/lordsutch/osm-makeroads/blob/master/process.R
+https://gis.stackexchange.com/questions/70623/statistically-calculating-real-road-from-set-of-gps-tracks
+https://stats.stackexchange.com/questions/69329/can-i-use-principal-curves-analysis-to-fit-a-vector-cloud-instead-of-a-point-clo
+https://www.psych.mcgill.ca/misc/fda/
+https://gis.stackexchange.com/questions/123731/create-mean-line-from-multiple-lines-using-qgis/271532#271532
+https://wiki.openstreetmap.org/wiki/R_(programming_language)/Average_tracks
+http://topofusion.com/network.php
+https://sourceforge.net/p/gpsbabel/mailman/gpsbabel-misc/thread/AANLkTi%3DveEFYN7KnUWiUzD7wzvaXh0eDEavWCttJEVN1@mail.gmail.com/
+https://gis.stackexchange.com/questions/8262/seeking-openjump-tool-for-point-node-conflation-matching
+https://gis.stackexchange.com/questions/206595/seeking-conflation-tool-for-qgis
+
+Maryvale Pines project
+
+Can use exponents in raster Calc?
+
+What effect does that have on average tracks heatmaps. Compare data from different rates of capture (Avenza vs motion-x)
+
+Try average all tracks and create heat map from that, and then compare with (raster difference) a heat map made by combining an average from all but the last and then add the last (iterative), and then try for all stacked on top.
+
+Heatmap -> vector line first two maps
+Use new “average” line and add next line, repeat. 
+
+Build network that has their “traversal cost” set to the numbers of tracks that have been averaged into it, and then create paths of tracks that have the lowest amount of data in them in order to build up 
+
+Qgis field calculator
+Extract date from name and add to new date field
+
+Ie ‘name’ = track_name + “ “ + yyyy-mm-dd
